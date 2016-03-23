@@ -25,6 +25,9 @@
 /* Begin PBXFileReference section */
 		C4D053351C9F261700186B84 /* ssg_code_challenge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ssg_code_challenge; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D053381C9F261700186B84 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C4D053421CA21EF700186B84 /* log-data-small.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "log-data-small.txt"; sourceTree = "<group>"; };
+		C4D053431CA21EF700186B84 /* sortme */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = sortme; sourceTree = "<group>"; };
+		C4D053441CA21EF700186B84 /* log-data-big.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "log-data-big.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,9 @@
 		C4D053371C9F261700186B84 /* ssg_code_challenge */ = {
 			isa = PBXGroup;
 			children = (
+				C4D053421CA21EF700186B84 /* log-data-small.txt */,
+				C4D053431CA21EF700186B84 /* sortme */,
+				C4D053441CA21EF700186B84 /* log-data-big.txt */,
 				C4D053381C9F261700186B84 /* main.cpp */,
 			);
 			path = ssg_code_challenge;
@@ -237,6 +243,7 @@
 				C4D0533E1C9F261700186B84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
